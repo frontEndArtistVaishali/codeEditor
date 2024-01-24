@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    height: 9%;
+    width: 100%;
+    padding: 1vh 0 0 0;
+}
+
+.one{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* border: 1px solid red; */
+    /* border: 1px solid rgb(173, 173, 173); */
+}
+
+.html, .css, .js{
+    width: 33.32%;
+    height: 100%;
+    padding: 0.2% 1%;
+
+    border: 1px solid rgb(78, 78, 78);
+}
+
+label{
+    display: inline-block;
+    width: 100%;
+    height: 8%;
+    padding: 0.5vh 1vw;
+    color: #f6f7eb;
+    margin-bottom: 1vh;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    /* border: 1px solid green; */
+}
+
+label i{
+    /* background-color: orange; */
+    color: white;
+}
+
+textarea{
+    width: 100%;
+    height: 85%;
+    padding: 2vh 1vw;
+    border: none;
+    outline: none;
+    background-color: #151515;
+    color: #f1f1f1;
+
+    resize: none;
+    /* border: 1px solid yellow; */
+}
+
+
+
+
+.two{
+    width: 100%;
+    height: 40%;
+    padding: 1vh 0 ;
+
+    /* border: 1px solid yellow; */
+}
+
+iframe{
+    width: 100%;
+    height: 99%;
+    border: none;
+    outline: none;
+    background-color: white;
+
+}
